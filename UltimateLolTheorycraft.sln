@@ -1,8 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2013
-VisualStudioVersion = 12.0.30324.0
-MinimumVisualStudioVersion = 10.0.40219.1
+# Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateLolTheorycraft.GUI", "UltimateLolTheorycraft.GUI\UltimateLolTheorycraft.GUI.csproj", "{82D7CD6F-C551-4549-AB51-3F1C0B339FF1}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateLolTheorycraft.BLL", "UltimateLolTheorycraft.BLL\UltimateLolTheorycraft.BLL.csproj", "{F11047CB-159E-4151-A051-50936E307C55}"
@@ -10,6 +8,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateLolTheorycraft.BO", "UltimateLolTheorycraft.BO\UltimateLolTheorycraft.BO.csproj", "{40742A81-D746-45CD-B5C4-F0D99517F04B}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateLolTheorycraft.DAL", "UltimateLolTheorycraft.DAL\UltimateLolTheorycraft.DAL.csproj", "{370A971E-5D3E-4639-B969-FC188DDDF775}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UltimateLolTheorycraft.TEST", "UltimateLolTheorycraft.TEST\UltimateLolTheorycraft.TEST.csproj", "{CB5E9168-C0B7-45A1-83CA-A354E1AF31B6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +33,10 @@ Global
 		{370A971E-5D3E-4639-B969-FC188DDDF775}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{370A971E-5D3E-4639-B969-FC188DDDF775}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{370A971E-5D3E-4639-B969-FC188DDDF775}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB5E9168-C0B7-45A1-83CA-A354E1AF31B6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB5E9168-C0B7-45A1-83CA-A354E1AF31B6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB5E9168-C0B7-45A1-83CA-A354E1AF31B6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB5E9168-C0B7-45A1-83CA-A354E1AF31B6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
