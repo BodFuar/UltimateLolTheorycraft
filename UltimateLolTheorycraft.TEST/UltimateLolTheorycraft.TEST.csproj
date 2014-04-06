@@ -51,6 +51,21 @@
   </Choose>
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ChampionManagerTest.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UltimateLolTheorycraft.BLL\UltimateLolTheorycraft.BLL.csproj">
+      <Project>{f11047cb-159e-4151-a051-50936e307c55}</Project>
+      <Name>UltimateLolTheorycraft.BLL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UltimateLolTheorycraft.BO\UltimateLolTheorycraft.BO.csproj">
+      <Project>{40742a81-d746-45cd-b5c4-f0d99517f04b}</Project>
+      <Name>UltimateLolTheorycraft.BO</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UltimateLolTheorycraft.DAL\UltimateLolTheorycraft.DAL.csproj">
+      <Project>{370a971e-5d3e-4639-b969-fc188dddf775}</Project>
+      <Name>UltimateLolTheorycraft.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
